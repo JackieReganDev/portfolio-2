@@ -152,6 +152,19 @@ body {
     text-align: center !important;
     width: 100%;
   }
+  #babito{
+    font-size: 1.4em;
+  }
+  .about-me{
+    object-fit: cover;
+    width: 100%;
+    padding-left: 1.3em;
+    padding-right: .9em;
+  }
+  .future{
+    object-fit: contain;
+    width: 120% !important;
+}
   .thumbnail{
     object-fit: contain;
   }
@@ -10099,9 +10112,7 @@ figcaption {
 /*---------------------------
     Service Area Styles 
 -----------------------------*/
-.indent{
-  text-indent: 40px;
-}
+
 .robert{
   width: 30%;
   text-align: center;
@@ -10115,7 +10126,8 @@ figcaption {
 #about-btn{
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 17%;
+  text-align: center;
 }
 @media only screen and (max-width: 479px){
   .profile{
@@ -10123,7 +10135,12 @@ figcaption {
     height: 300px;
     width: 70%;
   }
-
+#about-btn{
+  width: 60%;
+}
+.indent{
+  width: 100%;
+}
 }
 
 
