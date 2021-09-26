@@ -168,6 +168,12 @@ body {
   .thumbnail{
     object-fit: contain;
   }
+  .paragraphOneAbout{
+    width: 100% !important;
+  }
+  .paragraphTwoAbout{
+    width: 100% !important;
+  }
 }
 
 h1,
@@ -3886,7 +3892,11 @@ textarea {
 button,
 input {
   line-height: normal; }
-
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -3909,14 +3919,14 @@ input[type="radio"] {
 }
 .paragraphOneAbout{
   text-indent: 40px;
-  padding-left:70px;
-  width: 60%;
+  padding-left:30px;
+  width: 80%;
 }
 .paragraphTwoAbout{
   text-indent: 40px;
   padding-bottom: 50px;
-  padding-left:70px;
-  width: 60%
+  padding-left:30px;
+  width: 80%
 }
 .mainBackgroundImageAbout{
   background-image: url(../images/about/bg-about.jpg);
