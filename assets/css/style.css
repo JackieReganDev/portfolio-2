@@ -142,7 +142,11 @@ body {
   @media only screen and (max-width: 767px) {
     body {
       overflow: hidden; } }
-
+#texta{
+  text-align: center;
+  width: 68%;
+  margin: none;
+}
 #regan{
   font-size: 3em !important;
   font-family: 'Righteous', cursive !important;
@@ -3921,13 +3925,13 @@ input[type="radio"] {
 .paragraphOneAbout{
   text-indent: 40px;
   padding-left:30px;
-  width: 80%;
+  
 }
 .paragraphTwoAbout{
   text-indent: 40px;
   padding-bottom: 50px;
   padding-left:30px;
-  width: 80%
+ 
 }
 .mainBackgroundImageAbout{
   background-image: url(../images/about/bg-about.jpg);
