@@ -144,6 +144,7 @@ body {
       overflow: hidden; } }
 
 #regan{
+  font-size: 3em !important;
   font-family: 'Righteous', cursive !important;
 }
 
@@ -190,7 +191,7 @@ h6,
 
 h1,
 .h1 {
-  font-size: var(--h1);
+  font-size:2em;
   line-height: 1.19; }
 
 h2,
@@ -10092,15 +10093,31 @@ figcaption {
 .indent{
   text-indent: 40px;
 }
-#zebra{
-  
-  width: 20%;
+.robert{
+  width: 30%;
   text-align: center;
+  margin-bottom: 10px;
+
 }
-#zebra.about{
-display: block !important;
-margin: 0 auto !important; 
+
+#resume-btn{
+  margin-bottom: 10px;
 }
+#about-btn{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+@media only screen and (max-width: 479px){
+  .profile{
+    object-fit: contain;
+    height: 300px;
+    width: 70%;
+  }
+
+}
+
+
 .rn-service {
   text-align: left;
   padding: 35px 50px 35px 50px;
