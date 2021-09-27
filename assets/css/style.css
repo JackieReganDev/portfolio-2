@@ -160,11 +160,14 @@ body {
 #regan{
   font-size: 3em !important;
   font-family: 'Righteous', cursive !important;
+  object-fit: contain !important;
 }
 @media only screen and (max-width: 479px){
   #regan{
     text-align: center !important;
-    width: 100%;
+    width: 70%;
+    object-fit: contain !important;
+    margin-left: 1.3em !important;
   }
   #babito{
     font-size: 1.4em;
@@ -7912,7 +7915,13 @@ Copyright (c) 2015 Daniel Eden
 
 @media only screen and (max-width: 479px) {
   .cd-headline {
-    font-size: 26px; } }
+    font-size: 26px; }
+  .cd-words-wrapper b{
+    font-size: 36px !important;
+    object-fit: contain; 
+
+  }
+  }
 
 .cd-words-wrapper {
   display: inline-block;
@@ -10192,7 +10201,7 @@ figcaption {
   width: 100%;
   }
   #about-btn{
-    width: 70% !important;
+    width: 85% !important;
   }
 .indent{
   width: 100%;
