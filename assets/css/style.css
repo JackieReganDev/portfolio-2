@@ -12014,6 +12014,7 @@ div#featured-project-carousel {
 }
 
 .contact-about-area {
+  text-align: center !important;
   padding: 30px;
   box-shadow: var(--shadow-1);
   border-radius: 10px;
