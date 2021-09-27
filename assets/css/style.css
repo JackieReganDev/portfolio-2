@@ -134,16 +134,26 @@ body {
   font-weight: var(--p-regular);
 }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #texta{
+      width: 100% !important;
+    }
     body {
       overflow: hidden; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #texta{
+      width: 100% !important;
+    }
     body {
       overflow: hidden; } }
   @media only screen and (max-width: 767px) {
     body {
-      overflow: hidden; } }
+      overflow: hidden; } 
+    #texta{
+      width: 100% !important;
+    }
+    }
 #texta{
-  text-align: center;
+  text-align: left;
   width: 68%;
   margin: none;
 }
@@ -294,6 +304,15 @@ h6 a,
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  #krat{
+    width: 100%; 
+  }
+  #babito{
+  width: 100%;
+  }
+  #about-btn{
+    width: 50% !important;
+  }
   h1,
   .h1 {
     font-size: 38px; }
@@ -325,8 +344,17 @@ h6 a,
     font-size: 20px; }
   h5,
   .h5 {
-    font-size: 16px; } }
-
+    font-size: 16px; } 
+    #krat{
+      width: 100%; 
+    }
+    #babito{
+    width: 100%;
+    }
+    #about-btn{
+      width: 50% !important;
+    }
+  }
 h1,
 .h1,
 h2,
@@ -10148,7 +10176,7 @@ figcaption {
 #about-btn{
   display: block;
   margin: 0 auto;
-  width: 17%;
+  width: 30%;
   text-align: center;
 }
 @media only screen and (max-width: 479px){
@@ -10157,9 +10185,15 @@ figcaption {
     height: 300px;
     width: 70%;
   }
-#about-btn{
-  width: 60%;
-}
+  #krat{
+    width: 100%; 
+  }
+  #babito{
+  width: 100%;
+  }
+  #about-btn{
+    width: 70% !important;
+  }
 .indent{
   width: 100%;
 }
