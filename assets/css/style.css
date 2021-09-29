@@ -39,7 +39,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #e36bd5;
+  --color-primary: #0d1013;
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
@@ -8836,7 +8836,8 @@ button.rn-btn {
   padding: 15px 35px;
   list-style: none;
   text-decoration: none;
-  color: var(--color-primary); }
+  color: black !important; 
+  font-weight: bold !important;}
 
 a.rn-btn,
 button.rn-btn {
@@ -10180,9 +10181,13 @@ figcaption {
 }
 
 #resume-btn{
+  color: black !important;
+  font-weight: bold !important;
   margin-bottom: 10px;
 }
 #about-btn{
+  color: black !important;
+  font-weight: bold !important;
   display: block;
   margin: 0 auto;
   width: 30%;
